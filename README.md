@@ -30,6 +30,24 @@ intel-image-classification/
 ├── README.md
 └── .gitignore
 
+## System Requirements & Setup Notes
+
+To ensure the project runs correctly without errors, please follow the requirements and notes below.
+
+### Python Version
+- Python **3.9 or 3.10** is recommended.
+- Python 3.11+ is not recommended due to potential compatibility issues with TensorFlow.
+
+### Required Libraries
+All required libraries are listed in `requirements.txt`.  
+Main dependencies include:
+- tensorflow
+- streamlit
+- numpy
+- pillow
+- matplotlib
+
+
 
 ## How to Run
 
@@ -37,3 +55,5 @@ intel-image-classification/
 pip install -r requirements.txt
 cd app
 streamlit run streamlit_app.py
+
+
