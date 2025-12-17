@@ -16,15 +16,15 @@ Image classification project using:
 intel-image-classification/
 │
 ├── models/
-│ ├── cnn_baseline.h5
-│ └── transfer_learning_model.h5
+│ cnn_baseline.h5
+│ transfer_learning_model.h5
 │
 ├── app/
-│ └── streamlit_app.py
+│ streamlit_app.py
 │
 ├── notebooks/
-│ ├── cnn_baseline.ipynb
-│ └── transfer_learning.ipynb
+│ cnn_baseline.ipynb
+│ transfer_learning.ipynb
 │
 ├── requirements.txt
 ├── README.md
