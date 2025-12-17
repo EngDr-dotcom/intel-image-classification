@@ -1,5 +1,17 @@
-streamlit
-tensorflow
-numpy
-pillow
-matplotlib
+# Core
+python>=3.9,<3.11
+
+# Deep Learning
+tensorflow==2.13.0
+
+# Web App
+streamlit==1.29.0
+
+# Image Processing
+pillow==10.1.0
+
+# Numerical
+numpy==1.24.3
+
+# Visualization
+matplotlib==3.7.2
